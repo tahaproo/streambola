@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "1";
-var adminprefix = '1'
+var prefix = "2";
+var adminprefix = '2'
 
 const developers = ["498132773878628353"]
 client.on('message', message => {
@@ -24,7 +24,7 @@ client.on('message', message => {
       message.channel.send(`**✅   ${argresult}**`)
   } else 
   if (message.content.startsWith(adminprefix + 'sets')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/omgeee");
+    client.user.setGame(argresult, "https://www.twitch.tv/bankuneverse");
       message.channel.send(`**✅**`)
   }
   if (message.content.startsWith(adminprefix + 'setname')) {
